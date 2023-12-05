@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+   background: blueviolet;
+   
+
+  }
+  #loancal{
+     width: 545px;
+     height: 690px;
+     background-color: #ddd;
+     color: #fff;
+     padding: 10px;
+     margin: 100px auto;
+     margin-top: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    color: darkmagenta;
+    margin-bottom: 35px;
+  }
+  .container{
+    margin-right: 40px;
+    margin-left: 28%;
+    color: black;
+  }
+  container{
+    width:100%;
+    height: 80px;
+   
+  }
+
+  #loan form{
+    width:100%;
+    height: 80px;;
+
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #loan-details {
+    display:flex;
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid:#0062cc;
+    border-radius: 5px;
+    background: #000;
+  }
+  
+  #loan-details h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ddd;
+  }
+  
+  #loan-details p {
+    margin-bottom: 5px;
+    color: #ddd;
+  }
+  
+  button {
+    background-color: #007bff;
+    border-style: double;
+    color: white;
+    padding: 15px 50px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+  .hidden {
+  

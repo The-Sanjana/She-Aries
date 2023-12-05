@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loan Management System</title>
+  
+</head>
+<body>
+    
+    <div id="loancal">
+
+    <h1>Elexmedia Loan Management System</h1>
+    <div class="container">
+    <form id="loanForm">
+      <label for="employeeID">Employee ID(E & min. 4 characters):</label><br>
+      <input type="text" id="employeeID"  size="40"required><br><br>
+      
+      <label for="name">Employee Name:</label><br>
+      <input type="text" id="name" size="40" required><br><br>
+
+      <label for="address">Employee Address:</label><br>
+      <input type="text" id="address" size="40" required><br><br>
+
+      <label for="designation">Employee Designation:</label><br>
+      <select id="designation" required>
+        <option value="">-- Select Designation --</option>
+        <option value="developer">Developer</option>
+        <option value="designer">Designer</option>
+        <option value="manager">Manager</option>
+      </select><br><br>
+
+      <label for="loanAmount">Enter Loan Amount(₹):</label><br>
+      <input type="number" id="loanAmount" size="40" min="0" required><br><br>
+
+      <label for="loanDate">Enter Date of Loan Taken:</label><br>
+      <input type="date" id="loanDate"size="40" required><br><br>
+
+      <label for="interestRate">Enter Interest Rate:</label><br>
+      <input type="number" id="interestRate" size="40"required><br><br>
+
+      <label for="maturityDate">Enter Maturity Date:</label><br>
+      <input type="date" id="maturityDate" size="40"required><br><br>
+   
+      <button type="submit">Calculate</button>
+      
+    </form>
+
+    <div id="result"></div>
+  </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
